@@ -15,11 +15,11 @@ A functional webcam that streams images to the web when there is a connected cli
 <table align="center">
   <tr>
      <td align="center">
-      <img src="Photos/schematic.png" width="450"><br>
+      <img src="Photos/schematic.png" width="600"><br>
       <em>PCB Schematic</em>
     </td>
     <td align="center">
-      <img src="Photos/layout.png" width="450"><br>
+      <img src="Photos/layout.png" width="400"><br>
       <em>Routing of PCB</em>
     </td>
   </tr>
