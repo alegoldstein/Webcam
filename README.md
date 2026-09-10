@@ -41,3 +41,9 @@ A functional webcam that streams images to the web when there is a connected cli
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="Photos/home1.png" width="600">
+  <br>
+  <em>Live streaming of webcam to website</em>
+</p>
