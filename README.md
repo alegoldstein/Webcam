@@ -32,11 +32,11 @@ A functional webcam that streams images to the web when there is a connected cli
       <em>Assembled PCB (hand soldered)/em>
     </td>
     <td align="center">
-      <img src="Photos/box1.png" width="300"><br>
+      <img src="Photos/box1.jpg" width="300"><br>
       <em>PCB inside of 3D printed box</em>
     </td>
     <td align="center">
-      <img src="Photos/box3.png" width="300"><br>
+      <img src="Photos/box3.jpg" width="300"><br>
       <em>Final product</em>
     </td>
   </tr>
