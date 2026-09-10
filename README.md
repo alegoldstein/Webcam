@@ -16,7 +16,7 @@ A functional webcam that streams images to the web when there is a connected cli
   <tr>
      <td align="center">
       <img src="Photos/schematic.png" width="450"><br>
-      <em>Assembled PCB</em>
+      <em>PCB Schematic</em>
     </td>
     <td align="center">
       <img src="Photos/layout.png" width="450"><br>
@@ -29,7 +29,7 @@ A functional webcam that streams images to the web when there is a connected cli
   <tr>
     <td align="center">
       <img src="Photos/pcb.png" width="450"><br>
-      <em>Assembled PCB (hand soldered)/em>
+      <em>Assembled PCB (hand soldered)</em>
     </td>
     <td align="center">
       <img src="Photos/box1.jpg" width="300"><br>
