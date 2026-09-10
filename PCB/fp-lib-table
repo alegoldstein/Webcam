@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EE326")(type "KiCad")(uri "${KIPRJMOD}/Symbols+Footprints/EE326.pretty")(options "")(descr ""))
+)

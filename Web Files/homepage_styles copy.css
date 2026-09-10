@@ -1,0 +1,37 @@
+/*
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    align-content: center;
+}
+
+img {
+    max-width: 600px;
+}
+
+.content-box {
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+}
+
+/*
+.content-box #home-image {
+    filter: invert(1);
+}
+*/

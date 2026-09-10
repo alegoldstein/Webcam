@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="navigation_styles.css" />
+        <link rel="stylesheet" type="text/css" href="homepage_styles.css" />
+    </head>
+    <body>
+        <nav>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="webcam.html">Webcam</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="http://10.105.136.151/edit" target="_blank">Wifi File Editor</a></li>
+            </ul>
+        </nav>
+        <div class="content-box">
+            <p>
+                Hi! This is our home automation website. In the navigation bar above, select "WEBCAM" to access a live
+                feed from the webcam, select "INFO" for contact info for the people behind the project. To return back
+                to this page, select "HOME". The webcam device is based on the OV2640 CMOS image sensor module, which is
+                controlled by and sends data to an ATSAM4S8B, which prompts an ESP-32 to transmit images over the web.
+            </p>
+            <img
+                src="https://drive.google.com/thumbnail?id=1wrBYWNrEPPkCofJxQrAAT9RvjuxcGl__"
+                id="home-image"
+                alt="icon representing an automated home" />
+        </div>
+        <script src="homepage_functions.js"></script>
+        <script src="navigation_functions.js"></script>
+    </body>
+</html>

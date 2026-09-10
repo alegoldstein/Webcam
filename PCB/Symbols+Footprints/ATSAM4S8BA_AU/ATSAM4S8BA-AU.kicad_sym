@@ -1,0 +1,549 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ATSAM4S8BA-AU" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -28.066 46.9306 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ATSAM4S8BA-AU" (id 1) (at -28.0509 -67.6975 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ATSAM4S8BA-AU:QFP50P1200X1200X160-64N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Microchip" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DIGI-KEY_PURCHASE_URL" "https://www.digikey.com/product-detail/en/microchip-technology/ATSAM4S8BA-AU/ATSAM4S8BA-AU-ND/3593645?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "IC MCU 32BIT 512KB FLASH 64LQFP" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "LQFP-64 Microchip" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ATSAM4S8BA-AU" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DIGI-KEY_PART_NUMBER" "ATSAM4S8BA-AU-ND" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ATSAM4S8BA-AU_0_0"
+      (rectangle (start -27.94 -63.5) (end 27.94 45.72)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin input line (at -33.02 30.48 0) (length 5.08)
+        (name "ADVREF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 20.32 0) (length 5.08)
+        (name "DDM/PB10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "56"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 17.78 0) (length 5.08)
+        (name "DDP/PB11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "57"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 15.24 0) (length 5.08)
+        (name "ERASE/PB12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "55"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -33.02 25.4 0) (length 5.08)
+        (name "JTAGSEL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "50"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 12.7 0) (length 5.08)
+        (name "~{NRST}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "39"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 10.16 0) (length 5.08)
+        (name "PA0/PGMEN0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "48"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 7.62 0) (length 5.08)
+        (name "PA10/PGMM2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 5.08 0) (length 5.08)
+        (name "PA11/PGMM3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 2.54 0) (length 5.08)
+        (name "PA12/PGMD0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 0.0 0) (length 5.08)
+        (name "PA13/PGMD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -2.54 0) (length 5.08)
+        (name "PA14/PGMD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -5.08 0) (length 5.08)
+        (name "PA15/PGMD3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -7.62 0) (length 5.08)
+        (name "PA16/PGMD4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -10.16 0) (length 5.08)
+        (name "PA17/PGMD5/AD0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -12.7 0) (length 5.08)
+        (name "PA18/PGMD6/AD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -15.24 0) (length 5.08)
+        (name "PA19/PGMD7/AD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -17.78 0) (length 5.08)
+        (name "PA1/PGMEN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "47"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -20.32 0) (length 5.08)
+        (name "PA20/PGMD8/AD3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -22.86 0) (length 5.08)
+        (name "PA21/PGMD9/AD8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -25.4 0) (length 5.08)
+        (name "PA22/PGMD10/AD9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -27.94 0) (length 5.08)
+        (name "PA23/PGMD11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -30.48 0) (length 5.08)
+        (name "PA24/PGMD12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -33.02 0) (length 5.08)
+        (name "PA25/PGMD13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -33.02 -35.56 0) (length 5.08)
+        (name "PA26/PGMD14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 27.94 180.0) (length 5.08)
+        (name "VDDCORE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 35.56 180.0) (length 5.08)
+        (name "VDDIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 43.18 180.0) (length 5.08)
+        (name "VDDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 33.02 180.0) (length 5.08)
+        (name "VDDOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 30.48 180.0) (length 5.08)
+        (name "VDDPLL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "64"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -43.18 180.0) (length 5.08)
+        (name "XOUT/PB8"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "61"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 15.24 180.0) (length 5.08)
+        (name "PA27/PGMD15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "37"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 12.7 180.0) (length 5.08)
+        (name "PA28"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "38"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 10.16 180.0) (length 5.08)
+        (name "PA29"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "41"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 7.62 180.0) (length 5.08)
+        (name "PA2/PGMEN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "44"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 5.08 180.0) (length 5.08)
+        (name "PA3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "43"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 2.54 180.0) (length 5.08)
+        (name "PA30"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "42"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 0.0 180.0) (length 5.08)
+        (name "PA31"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "52"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -2.54 180.0) (length 5.08)
+        (name "PA4/PGMNCMD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -5.08 180.0) (length 5.08)
+        (name "PA5/PGMRDY"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -7.62 180.0) (length 5.08)
+        (name "PA6/PGMNOE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -10.16 180.0) (length 5.08)
+        (name "PA7/XIN32/PGMNVALID"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -12.7 180.0) (length 5.08)
+        (name "PA8/XOUT32/PGMM0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -15.24 180.0) (length 5.08)
+        (name "PA9/PGMM1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -17.78 180.0) (length 5.08)
+        (name "PB0/AD4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -20.32 180.0) (length 5.08)
+        (name "PB13/DAC0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "59"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -22.86 180.0) (length 5.08)
+        (name "PB14/DAC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "63"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -25.4 180.0) (length 5.08)
+        (name "PB1/AD5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -27.94 180.0) (length 5.08)
+        (name "PB2/AD6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -30.48 180.0) (length 5.08)
+        (name "PB3/AD7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional clock (at 33.02 -33.02 180.0) (length 5.08)
+        (name "TCK/SWCLK/PB7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "53"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -35.56 180.0) (length 5.08)
+        (name "TDI/PB4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -38.1 180.0) (length 5.08)
+        (name "TDO/TRACESWO/PB5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "49"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -40.64 180.0) (length 5.08)
+        (name "TMS/SWDIO/PB6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "51"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -33.02 27.94 0) (length 5.08)
+        (name "TST"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "40"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 33.02 -45.72 180.0) (length 5.08)
+        (name "XIN/PGMCK/PB9"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "62"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -53.34 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 40.64 180.0) (length 5.08)
+        (name "VDDIO__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "45"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 38.1 180.0) (length 5.08)
+        (name "VDDIO__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "58"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 25.4 180.0) (length 5.08)
+        (name "VDDCORE__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 22.86 180.0) (length 5.08)
+        (name "VDDCORE__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "54"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -55.88 180.0) (length 5.08)
+        (name "GND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -58.42 180.0) (length 5.08)
+        (name "GND__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "46"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -60.96 180.0) (length 5.08)
+        (name "GND__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "60"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,83 @@
+/*
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_opsz,wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+    color: #fff;
+}
+
+body {
+    background-color: #222;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links a {
+    display: block;
+    padding: 30px 16px;
+    color: #111;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    transition: all ease-in-out 100 ms;
+}
+
+.nav-links a:hover {
+    background-color: #39ffde;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    width: 34px;
+}
+
+.hamburger.bar {
+    flex-basis: 100%;
+    height: 4px;
+    background-color: #111;
+    margin: 3px;
+}
+
+/* changes style for mobile phones */
+@media (max-width: 770px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        display: none;
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+}

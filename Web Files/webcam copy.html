@@ -1,0 +1,40 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webcam</title>
+    <link href="navigation_styles.css" rel="stylesheet" type="text/css" />
+    <link href="webcam_styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="webcam.html">Webcam</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="http://10.105.136.151/edit" target="_blank">Wifi File Editor</a></li>
+        </ul>
+    </nav>
+    <h1>My Webcam</h1>
+
+    <h3 id="timestamp">Time Stamp</h3>
+
+    <div class="container">
+        <img id="image" alt="My webcam image" width="640" height="480" />
+        <br />
+        <button id="btnWS" title="Click to start webcam">Start Webcam</button>
+
+        <h3>Log</h3>
+
+        <textarea id="msg" rows="20" cols="50">&nbsp;</textarea>
+    </div>
+    <script src="webcam_functions.js"></script>
+    <script src="navigation_functions.js"></script>
+</body>
