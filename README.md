@@ -11,19 +11,20 @@ Steps Taken:
 Outcome:
 A functional webcam that streams images to the web when there is a connected client.
 
+<p align="center">
+  <img src="Photos/schematic.png" width="800">
+  <br>
+  <em>PCB Schematic</em>
+</p>
 
-<table align="center">
-  <tr>
-     <td align="center">
-      <img src="Photos/schematic.png" width="600"><br>
-      <em>PCB Schematic</em>
-    </td>
-    <td align="center">
-      <img src="Photos/layout.png" width="400"><br>
-      <em>Routing of PCB</em>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="Photos/layout.png" width="500">
+  <br>
+  <em>Routing of PCB</em>
+</p>
+
+
+
 
 <table align="center">
   <tr>
